@@ -1,0 +1,369 @@
+<!DOCTYPE HTML>
+<html>
+<!-- votre commentaire -->
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://use.fontawesome.com/c9b70bfdc8.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/portfolio.css" />
+    <title>Portfolio de François</title>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-default">
+            <div id="start" class="navbar-header col-xs-12 col-md-12 col-sm-12">
+                <div class="col-xs-2 col-md-2 col-sm-2">
+                    <a href="#welcome" class="br js-scrollTo">Acceuil</a>
+                </div>
+                <div class="col-xs-2 col-md-2 col-sm-2">
+                    <a href="#portfolio" class="br js-scrollTo">Portfolio</a>
+                </div>
+                <div class="col-xs-2 col-md-2 col-sm-2">
+                    <a href="#about" class="br js-scrollTo">About</a>
+                </div>
+                <div class="col-xs-2 col-md-2 col-sm-2">
+                    <a href="#footer" class="br js-scrollTo">Contact</a>
+                </div>
+                <div class="cool col-xs-2 col-md-4 col-sm-4">
+                    <span>Style</span>
+                    <i class="cool fa fa-arrow-down btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-hidden="true"></i>
+                    <!-- <span class="cool caret"></span> -->
+                    <ul class="dropdown-menu">
+                        <li><a id="bleu">Bleu</a>
+                        </li>
+                        <li><a id="vert">Vert</a></li>
+                    </ul>
+                </div>
+            </div>
+    </nav>
+    <div class="row" id="welcome">
+        <div class="col-xs-12 col-md-12 col-sm-12">
+            <div class="container-fluid">
+              <div id="hello">
+                <h1>Portfolio</h1>
+                <p>Bonjour, je vous souhaite la bienvenue sur le site de François Andrzejewski.
+                </p>
+                <p>Ce site fait office de portfolio regroupant les compétences de développeur web que j'ai acquis durant la formation simplon.
+                </p>
+                <p>Bonne visite!</p>
+              </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="portfolio" class="carousel slide col-xs-12 col-md-12 col-sm-12 carouselbg" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#portfolio" data-slide-to="0" class="active"></li>
+            <li data-target="#portfolio" data-slide-to="1"></li>
+            <li data-target="#portfolio" data-slide-to="2"></li>
+            <li data-target="#portfolio" data-slide-to="3"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+            <div class="item active">
+                <img id="hotcold" class="img-responsive center-block" src="images/hotcold.png" alt="Chania">
+                <div class="carousel-caption">
+                    <a class="login" href="chaudfroidjs/index.html" target="_blank">Accéder au projet<span class="sr-only">(current)</span></a>
+                </div>
+            </div>
+
+            <div class="item">
+                <img id="zelda" class="img center-block" src="images/zelda.png" alt="Chania">
+                <div class="carousel-caption">
+                    <a class="login" href=gravité/ball.html target="_blank">Accéder au projet<span class="sr-only">(current)</span></a>
+                </div>
+            </div>
+
+            <div class="item">
+                <img class="img center-block" src="images/maquette.png" id="gros" alt="Flower">
+                <div class="carousel-caption">
+                    <a class="login" href="maquette/index.html" target="_blank">Accéder au projet<span class="sr-only">(current)</span></a>
+                </div>
+            </div>
+
+            <div class="item">
+                <img id="morpion" class="img center-block" src="images/morpion.png" alt="Flower">
+                <div class="carousel-caption">
+                    <a class="login" href="TicTacToe/index.html" target="_blank">Accéder au projet<span class="sr-only">(current)</span></a>
+                </div>
+            </div>
+        </div>
+        <a class="left carousel-control" href="#portfolio" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#portfolio" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+    <div id="comp" class="text-center row">
+        <p>Compétences</p>
+    </div>
+    <div id="code" class="comp row">
+        <div class="col-xs-12 col-md-12 col-sm-12">
+            <div class="col-xs-4 col-md-4 col-sm-4">
+                <img class="resize img-responsive center-block" src="images/html.png">
+                <div class="progress">
+                    <div class="progress-bar progress-bar-danger progress-bar-striped active" placeholder="Html" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%; orange;">
+                        <p class="text-center innerprogress">Html:</p><span class="sr-only">80% Complete (success)</span>
+                    </div>
+                </div>
+            </div>
+            <div class="block-center col-xs-4 col-md-4 col-sm-4">
+                <img class="resize img-responsive center-block" src="images/css.png">
+                <div class="progress">
+                    <div class="progress-bar progress-bar-complete progress-bar-striped active" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%; blue;">
+                        <p class="text-center innerprogress">Css:</p><span class="sr-only"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="block-center col-xs-4 col-md-4 col-sm-4">
+                <img class="resize img-responsive center-block" src="images/js.png">
+                <div class="progress">
+                    <div class="progress-bar progress-bar-warning progress-bar-striped active" placeholder="Javascript" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%; yellow;">
+                        <p class="text-center innerprogress">Javascript:</p><span class="sr-only">50% Complete (success)</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="block-center col-xs-12 col-md-12 col-sm-12">
+            <div class="row">
+                <div class="block-center col-xs-4 col-md-4 col-sm-4">
+                    <img class="resize img-responsive center-block" src="images/boot.jpg">
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-success progress-bar-striped active" placeholder="Bootstrap" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 40%; purple;">
+                            <p class="text-center innerprogress">Bootstrap:</p><span class="sr-only">50% Complete (success)</span>
+                        </div>
+                    </div>
+                </div>
+                  <div class="text-center col-xs-4 col-md-4 col-sm-4">
+                              <div id="title">
+                                <h2>A propos de moi</h2>
+                                <i id="indic"class="fa fa-arrow-down fa-3x" aria-hidden="true"></i>
+                            </div>
+                          </div>
+                <div class="block-center col-xs-4 col-md-4 col-sm-4">
+                    <img class="resize img-responsive center-block" src="images/jQuery.png">
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-complete progress-bar-striped active" placeholder="Jquery" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 15%; navy;">
+                            <p class="text-left innerprogress">Jquery:</p><span class="sr-only">50% Complete (success)</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
+    <div id="prop"class="propos col-xs-12 col-md-12 col-sm-12">
+        <div class="container-fluid">
+            <!-- <div id="title"class="titre row">
+                <h2>A propos de moi</h2>
+            </div> -->
+            <div class="titre colonne row">
+                <div id="about" class="col-xs-6 col-md-6 col-sm-6">
+
+                      <img class="profil img-responsive center-block" src="images/moi.jpg">
+                  <!-- </div> -->
+                    <p>Cette partie du site est dédié à une présentation plus personnelle. Je m'appelle François Andrzejewski, agé de 25 ans, je suis né à Boulogne-sur-mer dans le Pas de Calais en France. Concernant mes compétences, j'ai effectué premièrement
+                        une formation de technicien réseaux via le BTS SIO pour ensuite me tourner vers le développement web nottamment via la formation simplon récemment labelisé "Grande école du Numérique". J'ai trouvé un réel intérêt dans la programation
+                        du fait que ce travail amène à sans cesse s'interroger sur la manière d'améliorer un projet, le travail en équipe et la logique que ce travail implique. Je suis intéréssé par la musique que je pratique, le cinéma, le sport et la
+                        culture en général.
+                    </p>
+
+                </div>
+                <div id="info"class="colonne col-xs-6 col-md-6 col-sm-6">
+                    <h4 class="title text-center">La formation Simplon</h4>
+                    <img id="simplon" class="img-responsive center-block" src="images/simplon.png">
+                    <p class="text-left">
+                        Une formation intensive de 6 mois pour apprendre à créer des sites web, des applications Web, et en faire son métier.</p>
+                    <h4 class="title text-center">Mes centres d'intérêts</h4>
+                    <div class="rock row">
+                        <img id="guitar" class="img-responsive center-block" src="images/guitar.png">
+                        <p class="text-left">En dehors de l'informatique, je suis passionné de musique et pratique la guitare depuis l'âge de mes 15 ans.</p>
+                    </div>
+                    <div class="movie row">
+                        <img id="film" class="img-responsive center-block" src="images/evadés.jpg">
+                        <p class="text-left">J'aime également le cinéma en général, une préférence tout de même pour les films de Martin Scorsese, David Lynch, Tarantino etc...</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="footer" class="col-xs-12 col-md-12 col-sm-12">
+        <div class="container-fluid">
+            <div class="row">
+                <h2>Contact</h2>
+            </div>
+            <div class="row">
+                <div class="container-fluid">
+                    <div class="form text-center col-xs-12 col-md-6 col-sm-6">
+                        <div>
+                            <input class="formulaire" placeholder="Nom:" cols="10">
+                        </div><br>
+                        <div>
+                            <input class="formulaire" placeholder="Prénom:" cols="40">
+                        </div><br>
+                        <div>
+                            <input class="formulaire" placeholder="Tel:" cols="40">
+                        </div><br>
+                        <div>
+                            <input class="formulaire" placeholder="Mail:" cols="40">
+                        </div><br>
+                        <div>
+                            <input class="formulaire" placeholder="Objet:" cols="40">
+                        </div><br>
+                        <div>
+                            <textarea class="formulaire" placeholder="Message:" cols="30" rows="5"></textarea>
+                        </div><br>
+                        <button id="push" type="submit" class="btn btn-default">Send</button>
+                    </div>
+                    <div id="contact" class="text-center col-xs-12 col-md-6 col-sm-6">
+                        <li>Adresse: 12 rue Georges Docquois.</li>
+                        <br>
+                        <li>62200 Boulogne-sur-mer</li>
+                        <br>
+                        <li>Tel: 06.31.13.44.65</li>
+                        <br>
+                        <li>Mail: fran.andrzejewski@laposte.net</li><br>
+                        <i class="twitter fa fa-twitter fa-2x" aria-hidden="true"></i>
+                        <i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i>
+                        <i class="fa fa-linkedin fa-2x" aria-hidden="true"></i>
+                        <i class="fa fa-viadeo fa-2x" aria-hidden="true"></i>
+
+                    </div>
+                </div>
+              </div>
+                <div class="row">
+                    <div id="presque" class="col-xs-12 col-md-12 col-sm-12">
+                        <a href="#" class="js-scrollTo"><i class="fa fa-arrow-circle-up fa-3x js-scrollTo" type="submit" class="btn btn-default js-scrollTo" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="credits row">
+                <p class="text-center">@Andrzejewski.François Legal - Credits</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js">
+    </script>
+
+    <script src="https://code.jquery.com/color/jquery.color-2.1.2.min.js" integrity="sha256-H28SdxWrZ387Ldn0qogCzFiUDDxfPiNIyJX7BECQkDE=" crossorigin="anonymous">
+    </script>
+    <script type="text/javascript">
+        // N'oubliez pas d'intégrer "jquery.color-2.1.2.min.js"
+        // pour l'animation des couleurs
+
+        $("#bleu").click(function() {
+          $("#prop").animate({
+              backgroundColor: "#0033FF",
+              color: "white"
+          }, 10000);
+            $("#code").animate({
+                backgroundColor: "#8DB6CD",
+                color: "white"
+            }, 10000);
+             $("#prop").animate({
+                 backgroundColor: "#539DC2",
+                 color: "white"
+             }, 10000);
+            $("#portfolio").animate({
+                backgroundColor: "#9AC0CD",
+                color: "white"
+            }, 10000);
+            $("#footer").animate({
+                backgroundColor: "blue",
+                color: "white"
+            }, 10000);
+            $("#about").animate({
+                backgroundColor: "#73B1B7",
+                color: "white"
+            }, 10000);
+            // $("#start").animate({
+            //     backgroundColor: "#B4CDCD",
+            //     color: "white"
+            // }, 10000);
+            $("nav").animate({
+                backgroundColor: "#1560BD",
+                color: "white"
+            }, 10000);
+            $("#comp").animate({
+                backgroundColor: "#ADD8E6",
+                color: "white"
+            }, 10000);
+            $("carousel-inner").animate({
+              backgroundColor: "#006699",
+              color: "white"
+            }), 10000;
+            $("#info").animate({
+                backgroundColor: "#73B1B7",
+                color: "white"
+            }, 10000);
+            $("#prop").animate({
+                backgroundColor: "#73B1B7",
+                color: "white"
+            }, 10000);
+        });
+        $("#vert").click(function() {
+          $("#comp").animate({
+              backgroundColor: "#98FB98",
+              color: "white"
+          }, 10000);
+          $("carousel-inner").animate({
+            backgroundColor: "#9AFF9A",
+            color: "white"
+          }), 10000;
+            $("#prop").animate({
+                backgroundColor: "#73B1B7",
+                color: "white"
+            }, 10000);
+            // $("#contact").animate({
+            //     backgroundColor: "#8CDD81",
+            //     color: "white"                               "#73B1B7"
+            // }, 10000);
+            $("#portfolio").animate({
+                backgroundColor: "#86C67C",
+                color: "white"
+            }, 10000);
+            $("#footer").animate({
+                backgroundColor: "#8CDD81",
+                color: "white"
+            }, 10000);
+            $("#about").animate({
+                backgroundColor: "#8CDD81",
+                color: "white"
+            }, 10000);
+            $("#start").animate({
+                backgroundColor: "#7BCC70",
+                color: "white"
+            }, 10000);
+            $("#info").animate({
+                backgroundColor: "#8CDD81",
+                color: "white"
+            }, 10000);
+            $("#code").animate({
+                backgroundColor: "#8FBC8F",
+                color: "white"
+            }, 10000);
+            $("#prop").animate({
+                backgroundColor: "#8FBC8F",
+                color: "white"
+            }, 10000);
+        });
+    </script>
+    <script>
+    		$('.js-scrollTo').on('click', function() { // Au clic sur un élément
+    			var page = $(this).attr('href'); // Page cible
+    			var speed = 1700; // Durée de l'animation (en ms)
+    			$('html, body').animate( { scrollTop: $(page).offset().top }, speed ); // Go
+    			return false;
+    		});
+    </script>
+</body>
+
+</html>
